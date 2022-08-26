@@ -144,30 +144,12 @@ li {
   list-style: none;
   text-align: left;
 }
-```
-
-## Main
-
-```CSS
-/*********************************
-* Main
-*********************************/
 
 main {
  width: 85%;
  flex-basis: 85%;
 }
 
-```
-
-
-###### Appearance
-
-![](./assets/build-progress/main-styled-1.png)
-
-## Main Rows
-
-```CSS
 div[class$='row']  {
    display: flex;
    align-items: center;
@@ -204,13 +186,8 @@ Full CSS
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
 
-/*********************************
-* Build Helpers
-*********************************/
 
-* {
-  border: 1px solid mediumvioletred;
-}
+
 
 img {
   width: 100px;
@@ -240,9 +217,7 @@ h1 {
 }
 
 
-/*********************************
-* Header
-*********************************/
+
 
 header {
   width: 90%;
@@ -262,9 +237,7 @@ header div:last-child {
 }
 
 
-/*********************************
-* Container
-*********************************/
+
 
 .container {
   display: flex;
@@ -273,9 +246,6 @@ header div:last-child {
   justify-content: space-between;
 }
 
-/*********************************
-* Aside/Nav
-*********************************/
 
 aside {
   flex-basis: 15%;
@@ -293,9 +263,7 @@ li {
   list-style: none;
   text-align: left;
 }
-/*********************************
-* Main
-*********************************/
+
 
 main {
  width: 85%;
